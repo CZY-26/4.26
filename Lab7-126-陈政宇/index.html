@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>烟台理工学院 | 校园综合展示</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: "微软雅黑",sans-serif;
+            background-color: #f4f4f4;
+            padding-bottom: 70px;
+        }
+        h2 {
+            width: 900px;
+            margin: 40px auto 20px;
+            text-align: center;
+            padding: 10px 0;
+            transition: transform 0.3s ease;
+            border-radius: 6px;
+            font-size: 22px;
+        }
+        h2:hover{
+            transform: rotate(45deg);
+        }
+        .wrap{
+            width: 900px;
+            margin: 0 auto 60px;
+            overflow: hidden;
+        }
+        .item{
+            width: 300px;
+            padding: 10px;
+            float: left;
+            text-align: center;
+        }
+        .item img{
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+            transition: transform 0.4s ease;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            display: block;
+        }
+        .item p{
+            margin-top: 8px;
+            font-size: 14px;
+            color: #333;
+            line-height: 1.4;
+        }
+        .item:nth-child(1) img:hover,
+        .item:nth-child(2) img:hover,
+        .item:nth-child(3) img:hover{
+            transform: scale(1.5);
+            z-index: 99;
+            position: relative;
+        }
+        .item:nth-child(4) img:hover,
+        .item:nth-child(5) img:hover,
+        .item:nth-child(6) img:hover{
+            transform: skewX(30deg);
+        }
+        .title1{
+            background-color: #e8f4f0;
+            color: #2c5c4e;
+        }
+        .box1{
+            background-color: #f9f7f2;
+            padding: 10px 0;
+        }
+        .title2{
+            background-color: #234068;
+            color: #ffb980;
+        }
+        .box2{
+            background-color: #fff;
+            padding: 10px 0;
+            position: relative;
+            height: 690px;
+        }
+        .box2 .item{
+            position: absolute;
+            float: none;
+        }
+        .box2 .item:nth-child(1){ top: 10px; left: 0; }
+        .box2 .item:nth-child(2){ top: 10px; left: 300px; }
+        .box2 .item:nth-child(3){ top: 10px; left: 600px; }
+        .box2 .item:nth-child(4){ top: 230px; left: 0; }
+        .box2 .item:nth-child(5){ top: 230px; left: 300px; }
+        .box2 .item:nth-child(6){ top: 230px; left: 600px; }
+        .box2 .item:nth-child(7){ top: 450px; left: 0; }
+        .box2 .item:nth-child(8){ top: 450px; left: 300px; }
+        .box2 .item:nth-child(9){ top: 450px; left: 600px; }
+        .title3{
+            background-color: #5c4b3e;
+            color: #f5efe6;
+        }
+        .box3{
+            background-color: #f5efe6;
+            padding: 10px 0;
+        }
+        footer{
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 50px;
+            line-height: 50px;
+            background: #222;
+            color: #fff;
+            text-align: center;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <h2 class="title1">烟理风光 · 实景美学</h2>
+    <div class="wrap box1">
+        <div class="item"><img src="图片1.jpg" alt=""><p>烟理校门全景</p></div>
+        <div class="item"><img src="图片2.jpg" alt=""><p>湖心园林景观</p></div>
+        <div class="item"><img src="图片3.jpg" alt=""><p>校园林荫大道</p></div>
+        <div class="item"><img src="图片4.jpg" alt=""><p>教学楼外景</p></div>
+        <div class="item"><img src="图片5.jpg" alt=""><p>校园落日晚霞</p></div>
+        <div class="item"><img src="图片6.jpg" alt=""><p>绿化草坪风光</p></div>
+        <div class="item"><img src="图片7.jpg" alt=""><p>休闲步道角落</p></div>
+        <div class="item"><img src="图片8.jpg" alt=""><p>湖边观景平台</p></div>
+        <div class="item"><img src="图片9.jpg" alt=""><p>四季绿植景色</p></div>
+    </div>
+    <h2 class="title2">青春烟理 · 校园生活</h2>
+    <div class="wrap box2">
+        <div class="item"><img src="图片10.jpg" alt=""><p>操场运动日常</p></div>
+        <div class="item"><img src="图片11.jpg" alt=""><p>图书馆自习</p></div>
+        <div class="item"><img src="图片12.jpg" alt=""><p>校园社团活动</p></div>
+        <div class="item"><img src="图片13.jpg" alt=""><p>课堂学习时光</p></div>
+        <div class="item"><img src="图片14.jpg" alt=""><p>篮球场竞技</p></div>
+        <div class="item"><img src="图片15.jpg" alt=""><p>校园特色美食</p></div>
+        <div class="item"><img src="图片16.jpg" alt=""><p>文明宿舍生活</p></div>
+        <div class="item"><img src="图片17.jpg" alt=""><p>志愿实践活动</p></div>
+        <div class="item"><img src="图片18.jpg" alt=""><p>课余休闲时刻</p></div>
+    </div>
+    <h2 class="title3">文脉烟理 · 学府风貌</h2>
+    <div class="wrap box3">
+        <div class="item"><img src="图片19.jpg" alt=""><p>烟理图书馆</p></div>
+        <div class="item"><img src="图片20.jpg" alt=""><p>综合教学楼群</p></div>
+        <div class="item"><img src="图片21.jpg" alt=""><p>实训实验中心</p></div>
+        <div class="item"><img src="图片22.jpg" alt=""><p>学术报告厅</p></div>
+        <div class="item"><img src="图片23.jpg" alt=""><p>校内体育馆</p></div>
+        <div class="item"><img src="图片24.jpg" alt=""><p>校园文化长廊</p></div>
+        <div class="item"><img src="图片25.jpg" alt=""><p>专业实训教室</p></div>
+        <div class="item"><img src="图片26.jpg" alt=""><p>行政办公大楼</p></div>
+        <div class="item"><img src="图片27.jpg" alt=""><p>校园文化地标</p></div>
+    </div>
+    <footer>烟台理工学院 </footer>
+</body>
+</html>
